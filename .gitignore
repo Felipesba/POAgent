@@ -73,8 +73,11 @@ Thumbs.db
 logs/
 data/chroma_db/
 documents/
-output/
 temp/
+
+# Keep output examples but ignore temporary files
+output/*.tmp
+output/temp_*
 
 # API Keys and secrets
 config/secrets.yml
